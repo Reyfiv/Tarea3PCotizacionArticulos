@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PCotizarArticulos.Entidades
 {
-    class Articulos
+    public class Articulos
     {
         [Key]
         public int ArticuloId { get; set; }
