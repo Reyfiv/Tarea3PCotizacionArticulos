@@ -13,7 +13,7 @@ namespace PCotizarArticulos.BLL
         /// <summary>
         /// Permite Guardar una entidad en la base datos
         /// </summary>
-        /// <param name="Libro"></param>
+        /// <param name="articulos"></param>
         /// <returns></returns>
         public static bool Guardar(Articulos articulos)
         {
@@ -39,7 +39,7 @@ namespace PCotizarArticulos.BLL
         /// <summary>
         /// permite Modificar una entidad en la base de datos
         /// </summary>
-        /// <param name="libro"></param>
+        /// <param name="articulos"></param>
         /// <returns></returns>
         public static bool Modificar(Articulos articulos)
         {
